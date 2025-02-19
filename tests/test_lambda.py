@@ -2,7 +2,7 @@ import json
 from lambda_function import lambda_handler
 
 
-def test_lambda(mock_get):
+def test_lambda():
     # Lambda 関数を実行
     response = lambda_handler({}, None)
 
