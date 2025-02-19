@@ -1,0 +1,15 @@
+# Python関連
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+*.venv
+*.env
+
+# GitHub Actions関連
+.github/workflows/*.log
+
+# AWS Lambdaデプロイ関連
+lambda_function.zip
