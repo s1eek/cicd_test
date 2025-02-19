@@ -1,10 +1,9 @@
 name: Hello
 
-on: push
-
-# push:
-#   branches-ignore:
-#   - "**"
+on:
+  push:
+    branches-ignore:
+      - "**"
 
 jobs:
   hello:
